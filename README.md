@@ -10,8 +10,9 @@ With those two kits you'll be able to jumpstart your "SDR knowledge" quite far
 
 ## Software
 Those 2 softwares, best that suits you
--  [SDRPP](https://www.sdrpp.org/) 
+- [SDRPP](https://www.sdrpp.org/) 
 -  [SDR#](https://airspy.com/download/)
+- [RTL_433](https://github.com/merbanan/rtl_433/releases)
 
 
 For airplanes more specifically, you'll want to install 
@@ -20,4 +21,32 @@ For airplanes more specifically, you'll want to install 
 
 ## How to get started
 
-This assume the kit bought was the starter kit.
+### Driver 
+This assume the kit bought was the starter kit. 
+Go [here]([https://www.nooelec.com/store/qs](https://www.nooelec.com/store/qs)) to download the Windows Driver
+
+Once the step are followed, restart the PC.
+
+### SDRPP
+
+Once this is installed and driver up to date. Open SDRPP
+It will look like this ->
+![[rtl-sdr.png]]
+
+Source should be changed to RTL-SDR.
+Radio to WFM
+Select a FM frequency of a Public Radio station to test.
+
+Press the play button.
+
+You should now here the Station
+
+### RTL_433
+
+Select the release you prefer, nightly or full release.
+Extract the ZIP and put somewhere on the PC.
+
+In the Powershell and go to the directory. 
+Run  `./rtl_433.exe -f 433975000`
+
+![[rtl-sdr_1.png]]
