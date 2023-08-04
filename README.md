@@ -31,15 +31,14 @@ Once the step are followed, restart the PC.
 
 Once this is installed and driver up to date. Open SDRPP
 It will look like this ->
-![[rtl-sdr.png]]
-
+![assets/23_08_04_154006.png](assets/23_08_04_154006.png)
 Source should be changed to RTL-SDR.
 Radio to WFM
 Select a FM frequency of a Public Radio station to test.
 
 Press the play button.
 
-You should now here the Station
+You should now hear the Station
 
 ### RTL_433
 
@@ -49,4 +48,4 @@ Extract the ZIP and put somewhere on the PC.
 In the Powershell and go to the directory. 
 Run  `./rtl_433.exe -f 433975000`
 
-![[rtl-sdr_1.png]]
+![assets/23_08_04_154006.png](assets/23_08_04_154436.png)
