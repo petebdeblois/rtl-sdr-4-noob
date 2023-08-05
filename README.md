@@ -23,7 +23,7 @@ For airplanes more specifically, you'll want to install 
 
 ### Driver 
 This assume the kit bought was the starter kit. 
-Go [here]([https://www.nooelec.com/store/qs](https://www.nooelec.com/store/qs)) to download the Windows Driver
+Go [here](https://www.nooelec.com/store/qs) to download the Windows Driver
 
 Once the step are followed, restart the PC.
 
